@@ -16,7 +16,7 @@ interface User {
 const user: User = { name: "Alice", age: 25 }; // Merged interface
 ```
 
-## 2. Extending
+2. Extending
 
 Interface: Can be extended using the extends keyword.
 
