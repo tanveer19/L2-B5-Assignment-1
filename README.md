@@ -50,6 +50,7 @@ Use types for unions, intersections, or more complex type definitions.
 # Example of using union and intersection types in TypeScript:
 
 Union Type Example
+
 A union type allows a value to be one of several types.
 
 ```typescript
@@ -64,6 +65,7 @@ printStatus("error"); // Output: The current status is: error
 ```
 
 Intersection Type Example
+
 An intersection type combines multiple types into one.
 
 ```typescript
@@ -91,11 +93,13 @@ console.log(employee);
 ```
 
 Explanation:
-Union Type:
+
+1. Union Type:
 
 The Status type allows a value to be "success", "error", or "loading".
 Useful when a variable can have multiple possible types or values.
-Intersection Type:
+
+2. Intersection Type:
 
 The EmployeeDetails type combines the properties of Person and Employee.
 Useful when you need to merge multiple types into one.
